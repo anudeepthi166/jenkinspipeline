@@ -20,5 +20,10 @@ stages{
 			echo "Testing app msg"
 		}
 	}
+	stage('Deploy to prod'){
+		steps {
+			echo "Final message"
+		}
+	}
 	}
 }
